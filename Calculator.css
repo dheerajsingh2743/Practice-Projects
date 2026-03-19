@@ -1,0 +1,29 @@
+.cal-container{
+    height: 600px;
+    width: 350px;
+    background-color: bisque;
+    margin-left: 200px;
+}
+
+#input{
+    height:30px;
+    width:250px;
+    margin-left:50px;
+    margin-top:20px;
+}
+
+.buttom-container{
+    margin: 50px 50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.button{
+    height:70px;
+    width:70px;
+    margin:3px;
+    border-radius:10px;
+    font-size: 40px;
+}
