@@ -1,0 +1,55 @@
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+input{
+    padding:10px;
+    width:300px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.task{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:100%;
+    padding:10px;
+    border-radius:5px;
+    background-color:#f0f0f0;
+}
+
+button[type="button"]{
+    margin-bottom: 20px;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    background-color:#007BFF;
+    color:white;
+    cursor:pointer;
+}
+
+.delete-btn{
+    display:flex;
+    justify-content:center;
+    margin-top: 20px;
+    width:100%;
+}
+
+.btn-div{
+    display:flex;
+    gap:20px;
+    justify-content: flex-end;
+}
