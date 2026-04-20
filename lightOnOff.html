@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height:90px;
+            width:70px;
+            position: absolute;
+            
+        }
+        
+        .off{
+            visibility:hidden;
+        }
+        
+        .on{
+            visibility:visible;
+        }
+
+        .div{
+            height:90px;
+            width:70px;
+            margin-bottom: 30px;
+            position:relative;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="div">
+    <img src="offLightImage.jpg" alt="" id="offimage" class="on">
+    <img src="onLightImage.jpg" alt="" id="onimage" class="off">
+    </div>
+    
+    <div class="button">
+        <button onclick="change()">Click Here To Change Content</button>
+    </div>
+    
+    <script src="ChangeLight.js"></script>
+</body>
+</html>

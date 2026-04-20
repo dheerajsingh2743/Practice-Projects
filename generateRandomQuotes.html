@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="div">
+    <h1 id="quote">Hello Ji Kaise Hai Aap Log</h1>
+    <button id="btn" onclick="handleClick()">Change Quotes</button>
+   </div>
+
+   <div class="color" style="margin:50px; display:flex; gap:20px; ">
+    <button onClick="changeColor('red')" id="red" style="color:white; background-color: red;">Red</button>
+    <button onClick="changeColor('blue')" id="blue" style="color:white; background-color: blue">Blue</button>
+    <button onClick="changeColor('green')" id="green" style="color:white; background-color: green;">Green</button>
+    <button onClick="changeColor('yellow')" id ="yellow" style="color:black; background-color: yellow;">Yellow</button>
+    <button onClick="changeColor('white')" id="white" style="color:black; background-color: white;">White</button>
+   </div>
+
+   <script src="generateRandomQuotes.js"></script>
+</body>
+</html>
